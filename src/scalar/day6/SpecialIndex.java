@@ -7,9 +7,9 @@ that removing an element from these indices makes the sum of even-indexed and
 odd-indexed array elements equal.
 
 Problem Constraints
-1 <= N <= 105
--105 <= A[i] <= 105
-Sum of all elements of A <= 109
+1 <= N <= 10^5
+-10^5 <= A[i] <= 10^5
+Sum of all elements of A <= 10^9
 
 Input Format
 First argument contains an array A of integers of size N
@@ -23,7 +23,6 @@ A = [2, 1, 6, 4]
 Input 2:
 A = [1, 1, 1]
 
-Example Output
 Output 1:
 1
 Output 2:
@@ -65,7 +64,7 @@ public class SpecialIndex {
             // odd indexed become even and vice versa
             if(i == 0) {
                 sumOfEven = pSo[N - 1] - pSo[0];
-                sumOfOdd = pSo[N - 1] - pSe[0];
+                sumOfOdd = pSe[N - 1] - pSe[0];
             }
 
             // when the last index is removed
