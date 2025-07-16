@@ -8,7 +8,7 @@ NOTE: Users should try to solve it in less than equal to B swaps.
 Problem Constraints
 1 <= |A| <= 100000
 1 <= B <= min(|A|, 500)
-1 <= A[i] <= 109
+1 <= A[i] <= 10^9
 
 Input Format
 The first argument is an integer array A.
