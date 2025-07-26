@@ -1,4 +1,4 @@
-package scalar.day10;
+package Practice.day10;
 
 /*
 Problem Description
